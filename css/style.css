@@ -1,3 +1,131 @@
 body{
+    background-image: url(../img/image\ 4.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
     background-color: black;
+    padding: 2px;
+    height: 700px;
+    width: 500px;
+    padding-left: 2px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.entrar{
+    color: red;
+    margin: 30px;
+}
+.informacoes{
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color:white;
+    color: gray;
+}
+.informacoes2{
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color:white;
+    color: gray;
+}
+.entrarr{
+    margin: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 420px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.lembre{
+    color: white;
+    padding: 28px;
+    padding-right: 100px;
+}
+.novo{
+    color: white;
+    margin: 4px;
+    padding: 20px;
+}
+.seca{
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color:white;
+    color: gray;
+}
+.cadastro{
+    background-color: black;
+    padding: 2px;
+    height: 700px;
+    width: 500px;
+    padding-left: 2px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cadastro > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upload{
+    margin: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.voltar{
+    margin: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.cadastro2{
+    background-color: black;
+    padding: 2px;
+    height: 700px;
+    width: 500px;
+    padding-left: 2px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.entrarrr{
+    margin: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 420px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.cabecalho{
+    width: 100%;
+    background-color: black;
+}
+.cabecalho > img{
+    width: 50px;
 }
