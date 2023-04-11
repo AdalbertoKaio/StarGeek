@@ -4,6 +4,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.bodycatalogo{
+    display: block;
+}
 
 .login{
     background-color: black;
@@ -125,7 +128,174 @@ body{
 .cabecalho{
     width: 100%;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cabecalho > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .cabecalho > img{
     width: 50px;
+}
+.imagem{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+.estrela{
+    width: 55px;
+    height: 50px;
+    padding: 5px;
+}
+.up{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 230px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.pintinho{
+    width: 10px;
+ 
+}
+.oii{
+    background-color: red;
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    padding-right: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.teste{
+    width: 450px;
+    padding-right: 20px;
+}
+.poi{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    font-size: 44px;
+    text-decoration: none;
+}
+.Novidades{
+    color: white;
+    font-size: 20px;
+}
+
+.card-filmes{
+    display: flex;
+    gap: 15px;
+    overflow: scroll;
+}
+.card-filmes::-webkit-scrollbar{
+    display: none;
+}
+.card-filmes > img {
+    width: 350px;
+
+}
+.ficcao{
+    color: white;
+    font-size: 20px;
+}
+.card-filmess{
+    display: flex;
+    gap: 15px;
+    overflow: scroll;
+}
+.card-filmess::-webkit-scrollbar{
+    display: none;
+} 
+.card-filmess > img{
+    width: 350px;
+}
+.top-filmes{
+    color: white;
+    font-size: 20px;
+}
+.card-series{
+    display: flex;
+    gap: 15px;
+    overflow: scroll;  
+}
+.card-series > img{
+    width: 350px;
+}
+.card-series::-webkit-scrollbar{
+    display: none;
+}
+.rodape{
+    
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    display: flex;
+    color: gray;
+}
+.leia{
+    font-size: 20px;
+}
+.er{
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.ed{
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.pesquisar{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    font-size: 44px;
+    text-decoration: none;
+}
+.pesquisarr{
+    font-size: large;
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color:white;
+    color: gray;
+}
+.ewa{
+    text-align: center;
+    color: red;
+    margin-bottom: 100px;
+}
+.u{
+    width: 250px;
+    height: 250px;
+    
+}
+.usuarios{
+    display: flex;
+    gap: 200px;
+
+}
+.usuario{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.eds{
+    
 }
