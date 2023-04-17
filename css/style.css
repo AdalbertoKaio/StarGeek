@@ -1,6 +1,7 @@
 body{
     background-image: url(../img/image\ 4.jpg);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -58,13 +59,16 @@ body{
     margin: 4px;
     padding: 20px;
 }
-.seca{
-    margin: 30px;
-    padding: 5px;
-    height: 40px;
-    width: 450px;
-    background-color:white;
-    color: gray;
+.fgg{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin-left: 25px;
 }
 .cadastro{
     background-color: black;
@@ -277,9 +281,11 @@ body{
     color: gray;
 }
 .ewa{
+    margin: 50px;
     text-align: center;
     color: red;
     margin-bottom: 100px;
+    font-size: 40px;
 }
 .u{
     width: 250px;
@@ -296,6 +302,150 @@ body{
     color: white;
     font-size: 30px;
 }
+.poiii{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    display: flex;
+    color: gray;
+    margin: 280px;
+}
 .eds{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    font-size: 44px;
+    text-decoration: none;
+    display: flex;
+}
+.terrifier:hover{
+    content: url(../img/terrifier.gif);
+    
+}
+.pearl:hover{
+    content: url(../img/pearl.gif);
+}
+.matrix:hover{
+    content: url(../img/the-matrix-keanu-reeves.gif);
+}
+.gato:hover{
+    content: url(../img/restricted.gif);
+}
+.st:hover{
+    content: url(../img/st.gif);
+}
+.tlou:hover{
+    content: url(../img/the-last-of-us.gif);
+}
+.maddy:hover{
+    content: url(../img/maddy.gif);
+}
+.estelar:hover{
+    content: url(../img/estelar.gif);
+}
+.umma:hover{
+    content: url(../img/tumblr_37268b088f08e37495c96c3c2b8314a3_eb062875_500.webp);
+}
+.quantumania:hover{
+    content: url(../img/quantumania.gif);
+}
+.nick:hover{
+    content: url(../img/nick.gif);
+}
+.funhouse:hover{
+    content: url(../img/funhouse.gif);
+}
+.loki:hover{
+    content: url(../img/loki.gif);
+}
+.atypical:hover{
+    content: url(../img/izzie-atypical.gif);
+}
+.heart:hover{
+    content: url(../img/heartstopper-couple-ms-ieojglsduq.gif);
+}
+.imagemm{
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+}
+.estrelaa{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.upw{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 86px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+}
+.wer{
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+}
+.aqew{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.pai{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.wii{
+    margin: 80px;
+    padding: 15px;
+    width: 30%;
+    height: 500px;
+}
+.sinopse{
+   color: white;
+   width: 70%;
+   text-align: center;
+   font-size: 30px;
+}
+.uiu{
+    color: grey;
+}
+.qas{
+    font-size: 80px;
+    color: red;
+}
+.poiuj{
+    text-align: left;
+}
+.asdd{
+    text-align: left;
+    color: red;
+}
+.sds{
+    margin: 30px;
+    padding: 5px;
+    height: 50px;
+    width: 450px;
+    background-color:white;
+    color: gray;
+}
+.inee{
+    color: gray;
+    position: absolute;
+    bottom: 10px;
+    right: 10px  ;
+}
+.wqq{
+    background-color: red;
+    color: white;
+    font-size: 44px;
+    text-decoration: none;
     
 }
